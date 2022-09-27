@@ -1,0 +1,63 @@
+:root{
+    --primary-color:#5eead4;
+    --secondary-color:#e879f9;
+}
+
+*{
+    text-align: center;
+    /* margin: auto; */
+    margin: 0;
+    padding: 0;
+}
+
+h1{
+    background-color: #5eead4;
+    margin: auto;
+    padding: 1rem;
+}
+
+
+label{
+    display: block;
+    padding-top: 4rem;
+    padding-bottom: 1rem;
+    font-size: x-large;
+}
+input{
+    margin: 2rem 0;
+    padding: 0.5rem;
+    border : 2px solid var(--primary-color);
+    border-radius: 0.5rem;
+    width:100%;
+    max-width:158px;
+
+}
+
+
+
+button{
+    display: block;
+    margin: auto;
+    padding: 0.5rem 1rem;
+    background-color: #5eead4;
+    border:none;
+    border-radius: 0.5rem;
+    font-size: large;
+    
+
+}
+#output{
+    padding : 4rem 0;
+    font-size: larger;
+}
+footer{
+    bottom:0;
+    position: absolute;
+    text-align: center;
+    left:0;
+    right:0;
+    background-color: #5eead4;
+    padding: 1.5rem;
+    font-size: large;
+    
+}
